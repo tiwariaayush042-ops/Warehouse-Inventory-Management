@@ -1,0 +1,41 @@
+ProductID,ProductName,Category,Price,Quantity
+105,Laptop,Electronics,55000,12
+120,Mouse,Accessories,650,45
+115,Keyboard,Accessories,1200,30
+130,Monitor,Electronics,12500,18
+110,Printer,Electronics,8500,10
+125,USB Drive,Storage,450,60
+140,Router,Networking,2200,15
+135,Headphones,Accessories,1800,25
+150,Webcam,Electronics,2500,14
+145,Speakers,Accessories,3200,20
+160,SSD,Storage,6500,16
+155,Hard Disk,Storage,4200,22
+170,Tablet,Electronics,28000,8
+165,Power Bank,Accessories,1500,35
+180,Projector,Electronics,35000,5
+175,Microphone,Accessories,2800,11
+190,Graphics Card,Electronics,42000,6
+185,RAM,Computer Parts,3200,28
+200,Motherboard,Computer Parts,9500,9
+195,Processor,Computer Parts,18000,7
+210,Cooling Fan,Computer Parts,800,40
+205,Power Supply,Computer Parts,5500,13
+220,Smart Watch,Wearables,7500,17
+215,Fitness Band,Wearables,2500,24
+230,CCTV Camera,Security,4800,12
+225,Security Alarm,Security,1800,10
+240,Barcode Scanner,Warehouse Tools,6500,8
+235,Label Printer,Warehouse Tools,7200,6
+250,HDMI Cable,Accessories,350,75
+245,Ethernet Cable,Networking,250,90
+260,UPS,Electronics,6000,14
+255,Battery,Accessories,900,32
+270,Laptop Stand,Accessories,1100,19
+265,Docking Station,Accessories,8500,7
+280,WiFi Adapter,Networking,950,26
+275,Switch,Networking,3500,9
+290,Scanner,Electronics,7800,11
+285,Toner Cartridge,Printer Supplies,2200,21
+300,Projector Screen,Accessories,5000,4
+295,Thermal Paper,Warehouse Supplies,400,55
