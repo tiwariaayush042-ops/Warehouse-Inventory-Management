@@ -1,0 +1,12 @@
+Parameter,BST,AVL,Hashing with Linear Probing
+Records Inserted,40,40,40
+Search Key,Product ID,Product ID,Product ID
+Successful Search,Supported,Supported,Supported
+Unsuccessful Search,Supported,Supported,Supported
+Insertion,Ordinary BST insertion,Balanced insertion using rotations,Insertion using linear probing
+Search Complexity (Average),O(log n) if balanced,O(log n),O(1) expected
+Search Complexity (Worst),O(n),O(log n),O(n)
+Tree Height,Depends on insertion order,Balanced tree height,N/A
+Collision Handling,N/A,N/A,Linear Probing
+Ordered Traversal,Inorder traversal,Inorder traversal,Not directly supported
+Additional Product Insertion,305,305,305
