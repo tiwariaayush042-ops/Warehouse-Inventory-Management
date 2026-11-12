@@ -1,23 +1,25 @@
-Warehouse Inventory Management System using C
+Warehouse Inventory Management System Using C
 
-Project Overview
+1. Project Overview
 
-This project implements a Warehouse Inventory Management System using three data structures: Binary Search Tree (BST), AVL Tree, and Hashing with Linear Probing.
+This project implements a Warehouse Inventory Management System using three different data structures: Binary Search Tree (BST), AVL Tree, and Hashing with Linear Probing.
 
-The objective is to compare their performance in storing, inserting, and searching warehouse product records.
+The main objective is to compare the performance of these data structures in storing, inserting, and searching warehouse product records.
 
-Problem Statement
+2. Problem Statement
 
-A warehouse needs an efficient way to store product information and search for products using unique Product IDs. This project evaluates three data structures to identify a suitable approach for inventory management.
+A warehouse needs an efficient system to store product information and search for products using unique Product IDs.
 
-Technologies Used
+This project implements three data structures and compares their performance to identify a suitable approach for inventory management.
+
+3. Technologies Used
 
 * Programming Language: C
 * Compiler: GCC
 * IDE: Visual Studio Code / Code::Blocks
 * Version Control: Git and GitHub
 
-Dataset
+4. Dataset
 
 The project uses 40 unique warehouse product records.
 
@@ -31,45 +33,51 @@ Each record contains:
 
 Dataset file: data/products.csv
 
-The same records and insertion order are used for all three data structures.
+The same dataset and insertion order are used for all three data structures to ensure a fair comparison.
 
-Data Structures Implemented
+5. Data Structures Implemented
 
-1. Binary Search Tree (BST)
+A. Binary Search Tree (BST)
 
-* Insertion of product records
-* Searching using Product ID
-* Inorder traversal
-* Tree height calculation
+* Insertion of product records.
+* Searching using Product ID.
+* Inorder traversal.
+* Tree height calculation.
 
-2. AVL Tree
+B. AVL Tree
 
-* Insertion with automatic balancing
-* Searching using Product ID
-* Inorder traversal
-* Rotations: LL, RR, LR and RL
-* Tree height calculation
+* Insertion with automatic balancing.
+* Searching using Product ID.
+* Inorder traversal.
+* LL, RR, LR and RL rotations.
+* Tree height calculation.
 
-3. Hashing with Linear Probing
+C. Hashing with Linear Probing
 
 * Hash function: ProductID % 53
-* Insertion of product records
-* Searching using Product ID
-* Collision handling using Linear Probing
+* Insertion of product records.
+* Searching using Product ID.
+* Collision handling using Linear Probing.
 
-Test Cases
+6. Test Cases
 
-* Successful search: 175 and 105
-* Unsuccessful search: 999
-* Additional insertion: 305
+The following test cases are used to evaluate the implementations:
 
-Compilation and Execution
+Test Case	Input	Expected Result
+Successful Search	175	Product found
+Successful Search	105	Product found
+Unsuccessful Search	999	Product not found
+Additional Insertion	305	Product inserted
 
-Compile each program using GCC:
+7. Compilation and Execution
 
-gcc src/bst.c -o bst
-gcc src/avl.c -o avl
-gcc src/hashing.c -o hashing
+Each data structure is implemented in a separate C file.
+
+Compile using GCC:
+
+gcc bst.c -o bst
+gcc avl.c -o avl
+gcc hashing.c -o hashing
 
 Run the programs:
 
@@ -77,29 +85,46 @@ Run the programs:
 ./avl
 ./hashing
 
-On Windows, run the corresponding .exe files.
+On Windows, execute the corresponding .exe files.
 
-Performance Analysis
+8. Performance Analysis
 
-The following parameters are evaluated:
+The performance of the three data structures is compared using the following parameters:
 
-* Number of search comparisons
-* BST and AVL tree heights
-* Number of hash collisions
-* Successful search performance
-* Unsuccessful search performance
-* Insertion observations
+* Number of search comparisons.
+* BST and AVL tree heights.
+* Number of hash collisions.
+* Successful search performance.
+* Unsuccessful search performance.
+* Insertion performance.
 
-Actual experimental outputs will be recorded in the results/ folder.
+Experimental outputs and comparison results are stored in the results/ folder.
 
-Conclusion
+9. Conclusion
 
-The three data structures are compared using the same warehouse inventory dataset. The final recommendation will be based on the measured experimental results.
+This project compares Binary Search Tree, AVL Tree, and Hashing with Linear Probing for warehouse inventory management.
 
-Project Information
+By using the same dataset for all three implementations, their performance can be evaluated fairly. The experimental results help identify the advantages and limitations of each data structure.
+
+10. Project Information
 
 * Project: Warehouse Inventory Management System
 * Course: Data Structures and Algorithms
 * Language: C
 * Institution: SRM Institute of Science and Technology, Tiruchirappalli
 * Assignment: Continuous Learning Assessment 2
+
+11. Repository Structure
+
+Warehouse-Inventory-Management/
+│
+├── data/
+│   └── products.csv
+│
+├── results/
+│
+├── bst.c
+├── avl.c
+├── hashing.c
+├── README.md
+└── .gitignore
